@@ -12,7 +12,6 @@
 }
 
 .coin-card__description {
-  font-size: var(--fs-sm);
   color: var(--night-rider);
 }
 

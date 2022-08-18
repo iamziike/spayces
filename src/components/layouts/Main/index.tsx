@@ -139,7 +139,7 @@ const Main = ({ className }: { className?: string }) => {
               Here is an overview of whats going on in your store.
             </p>
           </div>
-          <Button title='New Product' />
+          <Button title='New Product' className={classes['new-product-btn']} />
         </div>
       </header>
       <main>

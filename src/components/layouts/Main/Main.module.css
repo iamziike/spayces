@@ -1,7 +1,7 @@
 .main {
   padding-left: var(--sp-lg);
   padding-right: var(--sp-lg);
-  padding-bottom: 135px;
+  padding-bottom: 40px;
 }
 
 .header__top,
@@ -19,16 +19,6 @@
   width: 35%;
 }
 
-@media (max-width: 700px) {
-  .header__top__searchbar {
-    width: 80%;
-  }
-
-  .header__top__searchbar + * {
-    display: none;
-  }
-}
-
 .header__bottom {
   position: relative;
   display: flex;
@@ -41,6 +31,20 @@
 
 .header__bottom .greeting {
   margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  .header__top__searchbar {
+    width: 80%;
+  }
+
+  .header__top__searchbar + * {
+    display: none;
+  }
+
+  .new-product-btn {
+    display: none !important;
+  }
 }
 
 /* store-basic-details */

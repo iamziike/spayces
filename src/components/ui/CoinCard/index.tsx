@@ -31,7 +31,9 @@ const CoinCard = ({
     <div className={`${classes['coin-card']}  default-border`}>
       <div>
         <CoinSVG />
-        <span className={classes['coin-card__description']}>{description}</span>
+        <span className={`${classes['coin-card__description']} subtext`}>
+          {description}
+        </span>
         <h1 className={classes['coin-card__title']}>
           <span>{mainText}</span>
           {asideContent && (
