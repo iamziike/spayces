@@ -1,0 +1,40 @@
+.avatar {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--pale-white);
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--white);
+}
+
+.avatar-group {
+  display: flex;
+  width: max-content;
+}
+
+.avatar--status {
+  border: 2px solid var(--pale-green);
+}
+
+.avatar--status::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  right: 0px;
+  bottom: 0px;
+  background-color: var(--bright-green);
+  border-radius: 100%;
+}
+
+.avatar-group__left-over-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-pointer);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-reg);
+}

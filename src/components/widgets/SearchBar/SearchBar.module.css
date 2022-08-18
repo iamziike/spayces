@@ -1,0 +1,29 @@
+.searchbar-wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 8px var(--sp-xsm);
+  gap: 12px;
+}
+
+.searchbar-wrapper--border {
+  border: solid 1px var(--light-grey);
+}
+
+.searchbar-wrapper button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar-wrapper svg {
+  width: 12px;
+}
+
+.searchbar-wrapper input {
+  width: 100%;
+  background-color: transparent;
+  color: inherit;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-reg);
+}
