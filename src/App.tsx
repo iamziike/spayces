@@ -22,7 +22,11 @@ const App = () => {
   }, [matches]);
 
   return (
-    <div className={classes.app}>
+    <div
+      className={`${classes.app} ${
+        isSidebarOpen ? classes['app--sidebar-open'] : ''
+      }`}
+    >
       <div className={classes['app-bar']}>
         <Icon value={LogoSVG} />
         <Icon value={MenuSVG} onClick={handleSidebarVisibility} />

@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.app--sidebar-open {
+  height: 100vh;
+}
+
 .app-bar {
   display: none;
 }
@@ -39,7 +43,7 @@
   .sidebar {
     position: fixed;
     left: -100%;
-    width: 60%;
+    width: 70%;
   }
 
   .sidebar--open {
